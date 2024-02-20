@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,0.3841911764705882) 0%, rgba(233,233,233,0.4206057422969187) 100%);
+}
+
+.header-titulo{
+    display: block;
+    margin: auto;
+}
+.header-titulo h2{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+.header-imagenes{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    position: relative;
+}
+.header-imagen--home{
+    margin: auto;
+}
+.header-imagen--home img{
+    width: 80%;
+
+}
+.header-imagen-Tshrit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.img-Tshirt{
+    width: 200px;
+}
